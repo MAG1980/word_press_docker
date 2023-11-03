@@ -17,3 +17,5 @@ function childhood_scripts()
     //Массив зависимостей, которые должны быть загружены до исполнения данного скрипта, например, jquery.
     wp_enqueue_script('childhood-scripts', get_template_directory_uri() . '/assets/js/main.min.js', [],null, true);
 }
+
+add_theme_support( 'custom-logo' );

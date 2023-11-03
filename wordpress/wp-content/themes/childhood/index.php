@@ -89,7 +89,9 @@
                 </div>
             </div>
             <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 col-xl-5 offset-xl-1">
-                <h1 class="title underlined">Про компанию</h1>
+                <h1 class="title underlined">
+	                <?php bloginfo('name'); ?>
+                </h1>
                 <div class="about__text">
                     Наша компания уже больше десяти лет дарит позитивные эмоции детям и их родителям. Мы воплощаем все
                     детские мечты и помогаем родителям дарить счастливое детство!
@@ -446,46 +448,46 @@
                     </div>
                     <div class="contacts__mail">
                         Или напишите нам на почту
-                        <a href="mailto:mirdetstva@gmail.com">mirdetstva@gmail.com</a>
+	                    <a href="mailto:mirdetstva@gmail.com">mirdetstva@gmail.com</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="title contacts__minititle">Оставьте ваш отзыв</div>
-                <form action="#" class="contacts__feed">
-                    <label for="feedname">
-                        Ваше имя <span>*</span>
-                    </label>
-                    <input required type="text" id="feedname" name="feedname">
+	        <div class="col-md-6">
+		        <div class="title contacts__minititle">Оставьте ваш отзыв</div>
+		        <form action="#" class="contacts__feed">
+			        <label for="feedname">
+				        Ваше имя <span>*</span>
+			        </label>
+			        <input required type="text" id="feedname" name="feedname">
 
-                    <label for="feedtext">
-                        Ваш отзыв <span>*</span>
-                    </label>
-                    <textarea required name="feedtext" id="feedtext"></textarea>
-                    <button class="minibutton">Отправить</button>
+			        <label for="feedtext">
+				        Ваш отзыв <span>*</span>
+			        </label>
+			        <textarea required name="feedtext" id="feedtext"></textarea>
+			        <button class="minibutton">Отправить</button>
 
-                    <svg class="lds-spinner" width="65px" height="65px" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"
-                         style="background: none;">
-                        <g transform="rotate(0 50 50)">
-                            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                                <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
-                                         begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
-                            </rect>
-                        </g>
-                        <g transform="rotate(30 50 50)">
-                            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                                <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
-                                         begin="-0.8333333333333334s" repeatCount="indefinite"></animate>
-                            </rect>
-                        </g>
-                        <g transform="rotate(60 50 50)">
-                            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                                <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s"
-                                         repeatCount="indefinite"></animate>
-                            </rect>
-                        </g>
-                        <g transform="rotate(90 50 50)">
+			        <svg class="lds-spinner" width="65px" height="65px" xmlns="http://www.w3.org/2000/svg"
+			             viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"
+			             style="background: none;">
+				        <g transform="rotate(0 50 50)">
+					        <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
+						        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+						                 begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
+					        </rect>
+				        </g>
+				        <g transform="rotate(30 50 50)">
+					        <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
+						        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+						                 begin="-0.8333333333333334s" repeatCount="indefinite"></animate>
+					        </rect>
+				        </g>
+				        <g transform="rotate(60 50 50)">
+					        <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
+						        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s"
+						                 repeatCount="indefinite"></animate>
+					        </rect>
+				        </g>
+				        <g transform="rotate(90 50 50)">
                             <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
                                 <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
                                          begin="-0.6666666666666666s" repeatCount="indefinite"></animate>
@@ -523,76 +525,76 @@
                         </g>
                         <g transform="rotate(270 50 50)">
                             <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                                <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
-                                         begin="-0.16666666666666666s" repeatCount="indefinite"></animate>
+	                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+	                                     begin="-0.16666666666666666s" repeatCount="indefinite"></animate>
                             </rect>
                         </g>
-                        <g transform="rotate(300 50 50)">
-                            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                                <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
-                                         begin="-0.08333333333333333s" repeatCount="indefinite"></animate>
-                            </rect>
-                        </g>
-                        <g transform="rotate(330 50 50)">
-                            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                                <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s"
-                                         repeatCount="indefinite"></animate>
-                            </rect>
-                        </g>
-                    </svg>
+				        <g transform="rotate(300 50 50)">
+					        <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
+						        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+						                 begin="-0.08333333333333333s" repeatCount="indefinite"></animate>
+					        </rect>
+				        </g>
+				        <g transform="rotate(330 50 50)">
+					        <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
+						        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s"
+						                 repeatCount="indefinite"></animate>
+					        </rect>
+				        </g>
+			        </svg>
 
-                    <svg class="confirm ldt-bounce-in" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         width="38px" height="38px" viewBox="0 0 448.8 448.8"
-                         style="enable-background:new 0 0 448.8 448.8; color: green" xml:space="preserve"
-                    ><g>
-                            <g>
-                                <polygon fill="green"
-                                         points="142.8,323.85 35.7,216.75 0,252.45 142.8,395.25 448.8,89.25 413.1,53.55 		"/>
-                            </g>
-                        </g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
-                        <g></g>
+			        <svg class="confirm ldt-bounce-in" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+			             x="0px" y="0px"
+			             width="38px" height="38px" viewBox="0 0 448.8 448.8"
+			             style="enable-background:new 0 0 448.8 448.8; color: green" xml:space="preserve"
+			        ><g>
+					        <g>
+						        <polygon fill="green"
+						                 points="142.8,323.85 35.7,216.75 0,252.45 142.8,395.25 448.8,89.25 413.1,53.55 		"/>
+					        </g>
+				        </g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
+				        <g></g>
                             </svg>
 
 
-                    <svg class="reject ldt-bounce-in " xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="圖層_1" x="0px" y="0px"
-                         viewBox="0 0 100 100" style="transform-origin: 50px 50px 0px; width: 40px;"
-                         xml:space="preserve"><g style="transform-origin: 50px 50px 0px;">
-                            <g style="transform-origin: 50px 50px 0px; transform: scale(1);">
-                                <g class="ld ldt-bounce-in"
-                                   style="transform-origin: 50px 50px 0px; animation-duration: 1.7s; animation-delay: 0s; animation-direction: normal;">
-                                    <g>
-                                        <style type="text/css" style="transform-origin: 50px 50px 0px;">.st0 {
-                                                fill: #333333;
-                                            }
+			        <svg class="reject ldt-bounce-in " xmlns="http://www.w3.org/2000/svg"
+			             version="1.1" id="圖層_1" x="0px" y="0px"
+			             viewBox="0 0 100 100" style="transform-origin: 50px 50px 0px; width: 40px;"
+			             xml:space="preserve"><g style="transform-origin: 50px 50px 0px;">
+					        <g style="transform-origin: 50px 50px 0px; transform: scale(1);">
+						        <g class="ld ldt-bounce-in"
+						           style="transform-origin: 50px 50px 0px; animation-duration: 1.7s; animation-delay: 0s; animation-direction: normal;">
+							        <g>
+								        <style type="text/css" style="transform-origin: 50px 50px 0px;">.st0 {
+										        fill: #333333;
+									        }
 
-                                            .st1 {
-                                                fill: #FFFFFF;
-                                            }
+									        .st1 {
+										        fill: #FFFFFF;
+									        }
 
-                                            .st2 {
-                                                fill: #849B87;
-                                            }
+									        .st2 {
+										        fill: #849B87;
+									        }
 
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                                stroke: #333333;
-                                                stroke-width: 6;
+									        .st3 {
+										        fill: #FFFFFF;
+										        stroke: #333333;
+										        stroke-width: 6;
                                                 stroke-miterlimit: 10;
                                             }
 

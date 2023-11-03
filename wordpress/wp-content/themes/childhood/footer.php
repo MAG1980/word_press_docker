@@ -23,26 +23,26 @@
                     <label for="mail">Email</label>
                     <input name="mail" id="mail" type="email">
                 </div>
-                <div>
-                    <label for="phone">Ваш телефон <span>*</span></label>
-                    <input name="phone" id="phone" type="tel" required>
-                </div>
+	            <div>
+		            <label for="phone">Ваш телефон <span>*</span></label>
+		            <input name="phone" id="phone" type="tel" required>
+	            </div>
             </div>
-            <label for="text">Ваш вопрос <span>*</span></label>
-            <textarea required name="text" id="text"></textarea>
-            <button class="minibutton">Отправить</button>
-            <svg class="lds-spinner" width="65px" height="65px" xmlns="http://www.w3.org/2000/svg"
-                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"
-                 style="background: none;">
-                <g transform="rotate(0 50 50)">
-                    <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
-                                 begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
-                    </rect>
-                </g>
-                <g transform="rotate(30 50 50)">
-                    <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+	        <label for="text">Ваш вопрос <span>*</span></label>
+	        <textarea required name="text" id="text"></textarea>
+	        <button class="minibutton">Отправить</button>
+	        <svg class="lds-spinner" width="65px" height="65px" xmlns="http://www.w3.org/2000/svg"
+	             viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"
+	             style="background: none;">
+		        <g transform="rotate(0 50 50)">
+			        <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
+				        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+				                 begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
+			        </rect>
+		        </g>
+		        <g transform="rotate(30 50 50)">
+			        <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
+				        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
                                  begin="-0.8333333333333334s" repeatCount="indefinite"></animate>
                     </rect>
                 </g>
@@ -100,55 +100,55 @@
                                  begin="-0.08333333333333333s" repeatCount="indefinite"></animate>
                     </rect>
                 </g>
-                <g transform="rotate(330 50 50)">
-                    <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
-                        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s"
-                                 repeatCount="indefinite"></animate>
-                    </rect>
-                </g>
-            </svg>
+		        <g transform="rotate(330 50 50)">
+			        <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="#013476">
+				        <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s"
+				                 repeatCount="indefinite"></animate>
+			        </rect>
+		        </g>
+	        </svg>
 
-            <svg class="confirm ldt-bounce-in" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                 width="38px" height="38px" viewBox="0 0 448.8 448.8"
-                 style="enable-background:new 0 0 448.8 448.8; color: green" xml:space="preserve"
-            ><g>
-                    <g>
-                        <polygon fill="green"
-                                 points="142.8,323.85 35.7,216.75 0,252.45 142.8,395.25 448.8,89.25 413.1,53.55 		"/>
-                    </g>
-                </g>
+	        <svg class="confirm ldt-bounce-in" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+	             x="0px" y="0px"
+	             width="38px" height="38px" viewBox="0 0 448.8 448.8"
+	             style="enable-background:new 0 0 448.8 448.8; color: green" xml:space="preserve"
+	        ><g>
+			        <g>
+				        <polygon fill="green"
+				                 points="142.8,323.85 35.7,216.75 0,252.45 142.8,395.25 448.8,89.25 413.1,53.55 		"/>
+			        </g>
+		        </g>
+		        <g></g>
+		        <g></g>
                 <g></g>
                 <g></g>
                 <g></g>
                 <g></g>
                 <g></g>
                 <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
+		        <g></g>
+		        <g></g>
+		        <g></g>
+		        <g></g>
+		        <g></g>
+		        <g></g>
+		        <g></g>
                     </svg>
 
 
-            <svg class="reject ldt-bounce-in " xmlns="http://www.w3.org/2000/svg"
-                 xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="圖層_1" x="0px" y="0px"
-                 viewBox="0 0 100 100" style="transform-origin: 50px 50px 0px; width: 40px;" xml:space="preserve"><g
-                        style="transform-origin: 50px 50px 0px;">
-                    <g style="transform-origin: 50px 50px 0px; transform: scale(1);">
-                        <g class="ld ldt-bounce-in"
-                           style="transform-origin: 50px 50px 0px; animation-duration: 1.7s; animation-delay: 0s; animation-direction: normal;">
-                            <g>
-                                <style type="text/css" style="transform-origin: 50px 50px 0px;">.st0 {
-                                        fill: #333333;
-                                    }
+	        <svg class="reject ldt-bounce-in " xmlns="http://www.w3.org/2000/svg"
+	             version="1.1" id="圖層_1" x="0px" y="0px"
+	             viewBox="0 0 100 100" style="transform-origin: 50px 50px 0px; width: 40px;" xml:space="preserve"><g
+			        style="transform-origin: 50px 50px 0px;">
+			        <g style="transform-origin: 50px 50px 0px; transform: scale(1);">
+				        <g class="ld ldt-bounce-in"
+				           style="transform-origin: 50px 50px 0px; animation-duration: 1.7s; animation-delay: 0s; animation-direction: normal;">
+					        <g>
+						        <style type="text/css" style="transform-origin: 50px 50px 0px;">.st0 {
+								        fill: #333333;
+							        }
 
-                                    .st1 {
+							        .st1 {
                                         fill: #FFFFFF;
                                     }
 
@@ -364,29 +364,28 @@
                 </style>
                     </svg>
 
-            <div class="reply__close">&times</div>
+	        <div class="reply__close">&times</div>
         </form>
     </div>
 </div>
 
 <footer>
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-3">
-                <a href="#" class="footer__logo">
-                    <img src="<?= bloginfo('template_url'); ?>/assets/img/icons/svg/logo.svg" alt="мир детства"
-                         class="footer__logo-img">
-                    <div class="footer__logo-text">мир детства</div>
-                </a>
-            </div>
-            <div class="col-md-4 col-lg-3">
-                <div class="footer__social">
-                    <div class="footer__social-item">
-                        Мы в соцсетях:
-                    </div>
-                    <a href="#" class="footer__social-item">
-                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.0959 0.442627H6.40873C3.11902 0.442627 0.442627 3.11915 0.442627 6.40885V16.096C0.442627 19.3858 3.11902 22.0622 6.40873 22.0622H16.0959C19.3858 22.0622 22.0622 19.3857 22.0622 16.096V6.40885C22.0624 3.11915 19.3858 0.442627 16.0959 0.442627ZM20.1442 16.096C20.1442 18.3281 18.3281 20.144 16.096 20.144H6.40873C4.17671 20.1442 2.36082 18.3281 2.36082 16.096V6.40885C2.36082 4.17684 4.17671 2.36082 6.40873 2.36082H16.0959C18.328 2.36082 20.144 4.17684 20.144 6.40885V16.096H20.1442Z"
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-3">
+				<div class="footer__logo">
+            <?php the_custom_logo(); ?>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-3">
+				<div class="footer__social">
+					<div class="footer__social-item">
+						Мы в соцсетях:
+					</div>
+					<a href="#" class="footer__social-item">
+						<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M16.0959 0.442627H6.40873C3.11902 0.442627 0.442627 3.11915 0.442627 6.40885V16.096C0.442627 19.3858 3.11902 22.0622 6.40873 22.0622H16.0959C19.3858 22.0622 22.0622 19.3857 22.0622 16.096V6.40885C22.0624 3.11915 19.3858 0.442627 16.0959 0.442627ZM20.1442 16.096C20.1442 18.3281 18.3281 20.144 16.096 20.144H6.40873C4.17671 20.1442 2.36082 18.3281 2.36082 16.096V6.40885C2.36082 4.17684 4.17671 2.36082 6.40873 2.36082H16.0959C18.328 2.36082 20.144 4.17684 20.144 6.40885V16.096H20.1442Z"
                                   fill="white"/>
                             <path d="M11.2525 5.68188C8.18067 5.68188 5.68164 8.18091 5.68164 11.2527C5.68164 14.3244 8.18067 16.8233 11.2525 16.8233C14.3243 16.8233 16.8233 14.3244 16.8233 11.2527C16.8233 8.18091 14.3243 5.68188 11.2525 5.68188ZM11.2525 14.905C9.23849 14.905 7.59984 13.2666 7.59984 11.2526C7.59984 9.23847 9.23836 7.59995 11.2525 7.59995C13.2666 7.59995 14.9051 9.23847 14.9051 11.2526C14.9051 13.2666 13.2664 14.905 11.2525 14.905Z"
                                   fill="white"/>

@@ -80,49 +80,46 @@
     </div>
 </div>
 
-<div class="about" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 offset-md-1 col-lg-5 offset-lg-1">
-                <div class="about__img">
-                    <img src="<?= bloginfo('template_url'); ?>/assets/img/about.jpg" alt="про компанию">
-                </div>
-            </div>
-            <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 col-xl-5 offset-xl-1">
-                <h1 class="title underlined">
-	                <?php bloginfo('name'); ?>
-                </h1>
-                <div class="about__text">
-                    Наша компания уже больше десяти лет дарит позитивные эмоции детям и их родителям. Мы воплощаем все
-                    детские мечты и помогаем родителям дарить счастливое детство!
-                    <br> <br>
-                    Но и взрослые иногда так нуждаются в детских эмоциях! Мы можем и это, ведь так приятно почувствовать
-                    заботу даже когда тебе за... :)
-                </div>
-                <a href="#" class="button">Узнать больше</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="specialists" id="specialists">
-    <div class="container">
-        <div class="title">Наша команда</div>
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <img class="specialists__img" src="<?= bloginfo('template_url'); ?>/assets/img/team.jpg"
-                     alt="наша команда">
-            </div>
-        </div>
-    </div>
-</div>
+	<div class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1 col-lg-5 offset-lg-1">
+					<div class="about__img">
+						<img src="<?= the_field('about_image') ?>"
+						     alt="<?php the_field('about_title'); ?>">
+					</div>
+				</div>
+				<div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 col-xl-5 offset-xl-1">
+					<h1 class="title underlined">
+              <?php the_field('about_title'); ?>
+					</h1>
+					<div class="about__text">
+              <?php the_field('about_description'); ?>
+					</div>
+					<a href="#" class="button">Узнать больше</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="specialists" id="specialists">
+		<div class="container">
+			<div class="title">Наша команда</div>
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<img class="specialists__img" src="<?= bloginfo('template_url'); ?>/assets/img/team.jpg"
+					     alt="наша команда">
+				</div>
+			</div>
+		</div>
+	</div>
 
-<div class="toys" id="toys">
-    <div class="container">
-        <h2 class="subtitle">Мягкие игрушки</h2>
-        <div class="toys__wrapper">
-            <div class="toys__item"
-                 style="background-image: url(<?= bloginfo('template_url'); ?>/assets/img/toy_1.jpg)">
-                <div class="toys__item-info">
+	<div class="toys" id="toys">
+		<div class="container">
+			<h2 class="subtitle">Мягкие игрушки</h2>
+			<div class="toys__wrapper">
+				<div class="toys__item"
+				     style="background-image: url(<?= bloginfo('template_url'); ?>/assets/img/toy_1.jpg)">
+					<div class="toys__item-info">
                     <div class="toys__item-title">Плюшевые медведи</div>
                     <div class="toys__item-descr">
                         Классика. Должен быть у каждого ребенка!

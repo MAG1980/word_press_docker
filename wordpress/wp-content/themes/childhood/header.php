@@ -50,7 +50,9 @@
 					<div class="header__contacts-item">
 						<img src="<?= bloginfo('template_url'); ?>/assets/img/icons/svg/email.svg" alt="почта"
 						     class="header__contacts-logo">
-						<a href="mailto:mirdetstva@gmail.com" class="header__contacts-mail">mirdetstva@gmail.com</a>
+						<a href="mailto: <?php the_field('email', 2); ?>" class="header__contacts-mail">
+							<?php the_field('email', 2); ?>
+						</a>
 					</div>
 					<div class="header__contacts-item">
                         <img src="<?=bloginfo('template_url'); ?>/assets/img/icons/svg/phone.svg" alt="телефон" class="header__contacts-logo">

@@ -85,8 +85,18 @@
 			<div class="row">
 				<div class="col-md-10 offset-md-1 col-lg-5 offset-lg-1">
 					<div class="about__img">
-						<img src="<?= the_field('about_image') ?>"
-						     alt="<?php the_field('about_title'); ?>">
+						<!--						Вариант вывода изображения с использованием URL изображения
+								<img src="<?php /*= the_field('about_image') */ ?>"
+						     alt="<?php /*the_field('about_title'); */ ?>">-->
+              <?php
+	              $image = get_field('about_image');
+	              if (!empty($image)):?>
+									<img
+										src="<?= $image['url']; ?>"
+										alt="<?= $image['alt']; ?>">
+	              <?php endif;
+	              print_r($image)
+              ?>
 					</div>
 				</div>
 				<div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 col-xl-5 offset-xl-1">

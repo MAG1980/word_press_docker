@@ -9,13 +9,16 @@ function childhood_styles()
     //Подключение стилей: название файла, путь к файлу (функция, возвращающая путь к главному файлу стилей темы)
     wp_enqueue_style('childhood-style', get_stylesheet_uri());
     //get_template_directory_uri() - путь к каталогу, содержащему файлы темы.
-  /*  wp_enqueue_style('header-style', get_template_directory_uri() . '/assets/styles/main.min.css');
-    wp_enqueue_style('animate-style', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');*/
+    /*  wp_enqueue_style('header-style', get_template_directory_uri() . '/assets/styles/main.min.css');
+      wp_enqueue_style('animate-style', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');*/
 }
+
 function childhood_scripts()
 {
     //Массив зависимостей, которые должны быть загружены до исполнения данного скрипта, например, jquery.
-    wp_enqueue_script('childhood-scripts', get_template_directory_uri() . '/assets/js/main.min.js', [],null, true);
+    wp_enqueue_script('childhood-scripts', get_template_directory_uri() . '/assets/js/main.min.js', [], null, true);
 }
 
-add_theme_support( 'custom-logo' );
+add_theme_support('custom-logo');
+//Включить поддержку превью постов (появится кнопка "Изображение записи" в правой панели настройки записи)
+add_theme_support('post-thumbnails');
